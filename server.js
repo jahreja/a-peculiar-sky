@@ -53,6 +53,4 @@ function tweetRandomImage(){
     } );
 }
 
-setInterval( function(){
-    tweetRandomImage();
-  }, 60000 );
+tweetRandomImage();
